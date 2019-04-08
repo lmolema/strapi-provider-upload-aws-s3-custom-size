@@ -1,41 +1,41 @@
 {
-    "name": "strapi-provider-upload-aws-s3-custom-size",
-    "version": "3.0.0-alpha.24.2",
-    "description": "strapi-provider-upload-aws-s3 with custom size",
-    "license": "ISC",
-    "homepage": "http://strapi.io",
-    "keywords": [
-        "upload",
-        "aws",
-        "s3",
-        "strapi"
-    ],
-    "directories": {
-        "lib": "./lib"
-    },
-    "main": "./lib",
-    "dependencies": {
-        "aws-sdk": "^2.199.0",
-        "sharp": "^0.21.3"
-    },
-    "strapi": {
-        "isProvider": true
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/stepanovantonnet/strapi-provider-upload-aws-s3-resizer.git"
-    },
-    "author": {
-        "email": "lennert@lemonit.nl",
-        "name": "lennert"
-    },
-    "engines": {
-        "node": ">= 10.0.0",
-        "npm": ">= 6.0.0"
-    },
-    "devDependencies": {
-        "eslint": "^5.14.1",
-        "eslint-config-airbnb-base": "^13.1.0",
-        "eslint-plugin-import": "^2.16.0"
-    }
+  "name": "strapi-provider-upload-aws-s3-custom-size",
+  "version": "3.0.0-alpha.19",
+  "description": "strapi-provider-upload-aws-s3 with custom size",
+  "license": "ISC",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.199.0",
+    "sharp": "^0.21.3"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lmolema/strapi-provider-upload-aws-s3-custom-size.git"
+  },
+  "author": {
+    "email": "info@lemonit.nl",
+    "name": "lmolema"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
