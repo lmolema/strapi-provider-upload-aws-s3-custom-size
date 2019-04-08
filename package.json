@@ -1,7 +1,7 @@
 {
-    "name": "strapi-provider-upload-aws-s3-resizer",
+    "name": "strapi-provider-upload-aws-s3-custom-size",
     "version": "3.0.0-alpha.24.2",
-    "description": "strapi-provider-upload-aws-s3 with resize options",
+    "description": "strapi-provider-upload-aws-s3 with custom size",
     "license": "ISC",
     "homepage": "http://strapi.io",
     "keywords": [
@@ -26,8 +26,8 @@
         "url": "git://github.com/stepanovantonnet/strapi-provider-upload-aws-s3-resizer.git"
     },
     "author": {
-        "email": "anton.stepanov@dailybonus.io",
-        "name": "antonstepanov"
+        "email": "lennert@lemonit.nl",
+        "name": "lennert"
     },
     "engines": {
         "node": ">= 10.0.0",
